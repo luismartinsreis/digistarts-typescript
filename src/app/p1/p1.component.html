@@ -1,0 +1,9 @@
+<span>Entrada:</span>
+<div style="width: 500px; height: auto; min-height: 30%;">
+    <textarea #p1 matInput cdkTextareaAutosize style="width: 100%; min-height: 100%;"></textarea>
+</div>
+<button style="width: 100%;"  mat-button (click)="execute(p1.value)">executar</button>
+<span>Saída:</span>
+<div style="width: 500px; height: auto; min-height: 30%;">
+    <textarea matInput cdkTextareaAutosize style="width: 100%; height: auto; min-height: 100%;">{{p1Output}}</textarea>
+</div>
